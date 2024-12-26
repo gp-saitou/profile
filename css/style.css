@@ -5,3 +5,8 @@ body{
 }
 
 /* header *\
+header{
+  display: flax;
+  height: 60px
+  background-color: #fff5ee;
+}

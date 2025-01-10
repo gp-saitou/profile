@@ -4,10 +4,10 @@ body{
   line-height: 1.5;
 }
 
-/* header *\
+/* header */
 header{
-  display: flax;
-  height: 60px
+  display: flex;
+  height: 60px;
   background-color: #fff5ee;
 }
 

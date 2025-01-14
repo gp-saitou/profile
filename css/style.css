@@ -22,3 +22,7 @@ header nav{
 header nav ul{
   display: flex;
 }
+
+header nav ul li{
+  margin-left: 30px;
+}

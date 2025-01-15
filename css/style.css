@@ -9,6 +9,7 @@ header{
   display: flex;
   height: 60px;
   background-color: #fff5ee;
+  line-height: 60px;
 }
 
 header .site-title  img{
@@ -30,5 +31,6 @@ header nav ul li{
 header nav ul li a{
   color: #24292e;
   font-size: 12px;
+  text-decoration: none;
 }
 

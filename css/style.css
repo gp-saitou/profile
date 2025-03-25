@@ -105,3 +105,39 @@ header nav ul li a:hover{
     margin: 0 auto;
   }
 }
+
+/* bicycle */
+.bicycle{
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.bicycle .contents{
+  display: flex;
+}
+
+.bicycle .contents .content{
+  width: calc(100%/3);
+  margin-right: 15px;
+}
+
+.bicycle .contents .content:last-child{
+  margin-right: 0;
+}
+
+.bicycle .contents .content img{
+  width: 100%;
+}
+
+@media(max-width: 600px){
+  .bicycle .contents{
+    flex-direction: column;
+  }
+
+  .bicycle .contents .content{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+}

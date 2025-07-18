@@ -141,3 +141,11 @@ header nav ul li a:hover{
   }
 }
 
+/* footer */
+footer{
+  text-align: center;
+}
+
+footer p{
+  font-size: 10px;
+}
